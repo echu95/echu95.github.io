@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Explore Nigeria</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo">Explore Nigeria</h1>
+                <div class="menu-toggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div class="close-icon"><i class="fa fa-times" aria-hidden="true"></i></div> <!-- Font Awesome close icon -->
+                <ul class="menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./destination.html">Destinations</a></li>
+                    <li><a href="./activities.html">Activities</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <!-- <li><a href=".">Accommodations</a></li> -->
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="contact-page">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or need assistance? Reach out to our team.</p>
+            <div class="contact-info">
+                <p>Email: echuemmanuel918@gmail.com</p>
+                <p>Phone: +234-903-938-6110</p>
+                <p>Address: 123 Nigeria Street, Lagos</p>
+            </div>
+            <form action="submit_contact.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or need assistance? Reach out to our team.</p>
+            <p><strong>Email:</strong> echuemmanuel918@gmail.com</p>
+            <p><strong>Phone:</strong> 09039386110</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="#" class="social-icon"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="#" class="social-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <!-- Add more social media icons as needed -->
+            </div>
+            <a href="contact.html" class="btn">Get in Touch</a>
+        </div>
+    </footer>
+</body>
+<script src="./script.js"></script>
+</html>
